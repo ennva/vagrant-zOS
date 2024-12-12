@@ -1,0 +1,23 @@
+#!/bin/bash
+#**********************************************************************
+#***                                                                ***
+#*** Script:  start_herc                                            ***
+#***                                                                ***
+#*** Purpose: Hercules startup for OS/VS2-MVS 3.8j with             ***
+#***          (TK4- manual operations)                              ***
+#***                                                                ***
+#*** Updated: 2013/11/18                                            ***
+#***                                                                ***
+#**********************************************************************
+#
+# set environment
+#
+if [[ `uname -m` == 'x86_64' ]];then arch=64;else arch=32;fi
+export PATH=hercules/linux/$arch/bin:$PATH
+export LD_LIBRARY_PATH=hercules/linux/$arch/lib:hercules/linux/$arch/lib/hercules:$LD_LIBRARY_PATH
+#
+# start Hercules
+#
+export HERCULES_RC=scripts/tk4-.rc
+export TK4CONS=extcons
+hercules -f conf/tk4-.cnf >log/3033.log

@@ -1,0 +1,672 @@
+13:06:16 HHC01413I Hercules version 4.00
+13:06:16 HHC01414I (c) Copyright 1999-2012 by Roger Bowler, Jan Jaeger, and others
+13:06:16 HHC01415I Built on Jul 15 2013 at 15:45:14
+HHC01416I Build information:
+HHC01417I Modes: S/370 ESA/390 z/Arch
+HHC01417I Max CPU Engines: 8
+HHC01417I Using   setresuid() for setting privileges
+HHC01417I Using   POSIX threads Threading Model
+HHC01417I Using   Error-Checking Mutex Locking Model
+HHC01417I With    Dynamic loading support
+HHC01417I Using   shared libraries
+HHC01417I With    External GUI support
+HHC01417I With    IPV6 support
+HHC01417I With    HTTP Server support
+HHC01417I With    sqrtl support
+HHC01417I With    SIGABEND handler
+HHC01417I With    CCKD BZIP2 support
+HHC01417I With    HET BZIP2 support
+HHC01417I With    ZLIB support
+HHC01417I With    Regular Expressions support
+HHC01417I Without Object REXX support
+HHC01417I Without Regina REXX support
+HHC01417I With    Automatic Operator support
+HHC01417I With    National Language Support
+HHC01417I Machine dependent assists: cmpxchg1 cmpxchg4 cmpxchg8
+HHC01417I Running on zOSserver Linux-3.10.0-1160.81.1.el. #1 SMP Fri Dec 16 17:29:43 UTC 2022, x86_64 MP=2
+HHC00150I Crypto module loaded (c) Copyright 2003-2011 by Bernard van der Helm
+HHC00151I Activated facility: Message Security Assist
+HHC00151I Activated facility: Message Security Assist Extension 1, 2, 3 and 4
+HHC00100I Thread id 7F6A1346F700, prio 15, name Processor CP00 started
+HHC00811I Processor CP00: architecture mode z/Arch
+HHC00136W Error in function setenv(): cannot set CUU: Not thread safe--setting disabled
+HHC00100I Thread id 7F6A1336E700, prio  0, name Timer started
+HHC01802I HTTP server using root directory /vagrant-zOS/scripts/hercules/httproot/
+HHC01807I HTTP server signaled to start
+HHC00100I Thread id 7F6A13672700, prio  4, name HTTP server started
+HHC01802I HTTP server using root directory /vagrant-zOS/scripts/hercules/httproot/
+HHC01803I HTTP server waiting for requests on port 8038
+HHC01042I 0:000C COMM: device bound to socket 3505
+HHC00100I Thread id 7F6A13571700, prio  0, name Socket device listener started
+HHC01437I Config file[39] conf/tk4-.cnf: including file conf/intcons.cnf
+HHC00100I Thread id 7F6A11632700, prio  4, name Console connection started
+HHC01024I Waiting for console connections on port 3270
+HHC00971I 0:0610 CTC: connect to 127.0.0.1:18610 failed, starting server
+HHC00971I 0:0611 CTC: connect to 127.0.0.1:18611 failed, starting server
+HHC00100I Thread id 7F6A10E17700, prio  0, name 3705 device(1:0660) thread started
+HHC01004I 0:0660 COMM: listening on port 37051 for incoming TCP connections
+HHC01004I 0:0662 COMM: listening on port 37053 for incoming TCP connections
+HHC01004I 0:0661 COMM: listening on port 37052 for incoming TCP connections
+HHC00100I Thread id 7F6A10C15700, prio  0, name 3705 device(1:0661) thread started
+HHC00100I Thread id 7F6A10A13700, prio  0, name 3705 device(1:0662) thread started
+HHC00100I Thread id 7F6A10811700, prio  0, name 3705 device(1:0663) thread started
+HHC01004I 0:0663 COMM: listening on port 37054 for incoming TCP connections
+HHC01004I 0:0664 COMM: listening on port 37055 for incoming TCP connections
+HHC01004I 0:0665 COMM: listening on port 37056 for incoming TCP connections
+HHC00100I Thread id 7F6A1040D700, prio  0, name 3705 device(1:0665) thread started
+HHC01004I 0:0666 COMM: listening on port 37057 for incoming TCP connections
+HHC00100I Thread id 7F6A1020B700, prio  0, name 3705 device(1:0666) thread started
+HHC01004I 0:0667 COMM: listening on port 37058 for incoming TCP connections
+HHC00100I Thread id 7F6A05ABD700, prio  0, name 3705 device(1:0667) thread started
+HHC01004I 0:0668 COMM: listening on port 37911 for incoming TCP connections
+HHC00100I Thread id 7F6A058BB700, prio  0, name 3705 device(1:0668) thread started
+HHC01004I 0:0669 COMM: listening on port 37912 for incoming TCP connections
+HHC00100I Thread id 7F6A056B9700, prio  0, name 3705 device(1:0669) thread started
+HHC01004I 0:066A COMM: listening on port 37913 for incoming TCP connections
+HHC00100I Thread id 7F6A054B7700, prio  0, name 3705 device(1:066A) thread started
+HHC01004I 0:066B COMM: listening on port 37914 for incoming TCP connections
+HHC00100I Thread id 7F6A052B5700, prio  0, name 3705 device(1:066B) thread started
+HHC00100I Thread id 7F6A1060F700, prio  0, name 3705 device(1:0664) thread started
+HHC00100I Thread id 7F6A04FA8700, prio  4, name 0:0670 communication thread started
+HHC01004I 0:0670 COMM: listening on port 37801 for incoming TCP connections
+HHC00100I Thread id 7F6A04EA7700, prio  4, name 0:0671 communication thread started
+HHC01004I 0:0671 COMM: listening on port 37802 for incoming TCP connections
+HHC00100I Thread id 7F6A04DA6700, prio  4, name 0:0672 communication thread started
+HHC01004I 0:0672 COMM: listening on port 37803 for incoming TCP connections
+HHC00100I Thread id 7F6A04CA5700, prio  4, name 0:0673 communication thread started
+HHC01004I 0:0673 COMM: listening on port 37804 for incoming TCP connections
+HHC00100I Thread id 7F6A04BA4700, prio  4, name 0:0680 communication thread started
+HHC01004I 0:0680 COMM: listening on port 33351 for incoming TCP connections
+HHC00100I Thread id 7F6A04AA3700, prio  4, name 0:0681 communication thread started
+HHC01004I 0:0681 COMM: listening on port 33352 for incoming TCP connections
+HHC00100I Thread id 7F6A049A2700, prio  4, name 0:0682 communication thread started
+HHC01004I 0:0682 COMM: listening on port 33353 for incoming TCP connections
+HHC00100I Thread id 7F6A048A1700, prio  4, name 0:0683 communication thread started
+HHC01004I 0:0683 COMM: listening on port 33354 for incoming TCP connections
+HHC00100I Thread id 7F6A047A0700, prio  4, name 0:0688 communication thread started
+HHC01004I 0:0688 COMM: listening on port 27411 for incoming TCP connections
+HHC00100I Thread id 7F6A0469F700, prio  4, name 0:0689 communication thread started
+HHC01004I 0:0689 COMM: listening on port 27412 for incoming TCP connections
+HHC00100I Thread id 7F6A0459E700, prio  4, name 0:068A communication thread started
+HHC01004I 0:068A COMM: listening on port 27413 for incoming TCP connections
+HHC00100I Thread id 7F6A0449D700, prio  4, name 0:068B communication thread started
+HHC01004I 0:068B COMM: listening on port 27414 for incoming TCP connections
+HHC00100I Thread id 7F6A0439C700, prio  4, name 0:068C communication thread started
+HHC01004I 0:068C COMM: listening on port 27415 for incoming TCP connections
+HHC00100I Thread id 7F6A0429B700, prio  4, name 0:068D communication thread started
+HHC01004I 0:068D COMM: listening on port 27416 for incoming TCP connections
+HHC00100I Thread id 7F6A0419A700, prio  4, name 0:068E communication thread started
+HHC01004I 0:068E COMM: listening on port 27417 for incoming TCP connections
+HHC00100I Thread id 7F69DFFFF700, prio  4, name 0:068F communication thread started
+HHC01004I 0:068F COMM: listening on port 27418 for incoming TCP connections
+HHC00414I 0:0152 CKD file dasd/hasp00.152: cyls 411 heads 19 tracks 7809 trklen 13312
+HHC00363W 0:0152 CCKD file dasd/hasp00.152: cdevhdr inconsistencies found, code 0001
+HHC00364W 0:0152 CCKD file dasd/hasp00.152: forcing check level 1
+HHC00368W 0:0152 CCKD file dasd/hasp00.152: free space errors detected
+HHC00377I 0:0152 CCKD file dasd/hasp00.152: free space rebuilt
+HHC00414I 0:0191 CKD file dasd/mvscat.191: cyls 1114 heads 15 tracks 16710 trklen 56832
+HHC00414I 0:0248 CKD file dasd/mvsdlb.248: cyls 560 heads 30 tracks 16800 trklen 19456
+HHC00364W 0:0248 CCKD file dasd/mvsdlb.248: forcing check level 1
+HHC00368W 0:0248 CCKD file dasd/mvsdlb.248: free space errors detected
+HHC00377I 0:0248 CCKD file dasd/mvsdlb.248: free space rebuilt
+HHC00414I 0:0148 CKD file dasd/mvsres.148: cyls 560 heads 30 tracks 16800 trklen 19456
+HHC00363W 0:0148 CCKD file dasd/mvsres.148: cdevhdr inconsistencies found, code 0001
+HHC00364W 0:0148 CCKD file dasd/mvsres.148: forcing check level 1
+HHC00368W 0:0148 CCKD file dasd/mvsres.148: free space errors detected
+HHC00377I 0:0148 CCKD file dasd/mvsres.148: free space rebuilt
+HHC00414I 0:0160 CKD file dasd/page00.160: cyls 698 heads 12 tracks 8376 trklen 8704
+HHC00363W 0:0160 CCKD file dasd/page00.160: cdevhdr inconsistencies found, code 0001
+HHC00364W 0:0160 CCKD file dasd/page00.160: forcing check level 1
+HHC00368W 0:0160 CCKD file dasd/page00.160: free space errors detected
+HHC00377I 0:0160 CCKD file dasd/page00.160: free space rebuilt
+HHC00414I 0:0161 CKD file dasd/page01.161: cyls 698 heads 12 tracks 8376 trklen 8704
+HHC00363W 0:0161 CCKD file dasd/page01.161: cdevhdr inconsistencies found, code 0001
+HHC00364W 0:0161 CCKD file dasd/page01.161: forcing check level 1
+HHC00368W 0:0161 CCKD file dasd/page01.161: free space errors detected
+HHC00377I 0:0161 CCKD file dasd/page01.161: free space rebuilt
+HHC00414I 0:0240 CKD file dasd/pub000.240: cyls 560 heads 30 tracks 16800 trklen 19456
+HHC00363W 0:0240 CCKD file dasd/pub000.240: cdevhdr inconsistencies found, code 0001
+HHC00364W 0:0240 CCKD file dasd/pub000.240: forcing check level 1
+HHC00368W 0:0240 CCKD file dasd/pub000.240: free space errors detected
+HHC00377I 0:0240 CCKD file dasd/pub000.240: free space rebuilt
+HHC00414I 0:0241 CKD file dasd/pub010.241: cyls 560 heads 30 tracks 16800 trklen 19456
+HHC00414I 0:0270 CKD file dasd/pub001.270: cyls 960 heads 12 tracks 11520 trklen 35840
+HHC00414I 0:0271 CKD file dasd/pub011.271: cyls 960 heads 12 tracks 11520 trklen 35840
+HHC00414I 0:0280 CKD file dasd/pub002.280: cyls 1772 heads 15 tracks 26580 trklen 47616
+HHC00414I 0:0281 CKD file dasd/pub012.281: cyls 1772 heads 15 tracks 26580 trklen 47616
+HHC00414I 0:0290 CKD file dasd/pub003.290: cyls 1114 heads 15 tracks 16710 trklen 56832
+HHC00414I 0:0291 CKD file dasd/pub013.291: cyls 2047 heads 15 tracks 30705 trklen 56832
+HHC00414I 0:0149 CKD file dasd/smp001.149: cyls 560 heads 30 tracks 16800 trklen 19456
+HHC00414I 0:014A CKD file dasd/smp002.14a: cyls 560 heads 30 tracks 16800 trklen 19456
+HHC00414I 0:014B CKD file dasd/smp003.14b: cyls 560 heads 30 tracks 16800 trklen 19456
+HHC00414I 0:014C CKD file dasd/smp004.14c: cyls 560 heads 30 tracks 16800 trklen 19456
+HHC00414I 0:0131 CKD file dasd/sort01.131: cyls 203 heads 20 tracks 4060 trklen 7680
+HHC00414I 0:0132 CKD file dasd/sort02.132: cyls 203 heads 20 tracks 4060 trklen 7680
+HHC00414I 0:0133 CKD file dasd/sort03.133: cyls 203 heads 20 tracks 4060 trklen 7680
+HHC00414I 0:0134 CKD file dasd/sort04.134: cyls 203 heads 20 tracks 4060 trklen 7680
+HHC00414I 0:0135 CKD file dasd/sort05.135: cyls 203 heads 20 tracks 4060 trklen 7680
+HHC00414I 0:0136 CKD file dasd/sort06.136: cyls 203 heads 20 tracks 4060 trklen 7680
+HHC00414I 0:0140 CKD file dasd/work00.140: cyls 560 heads 30 tracks 16800 trklen 19456
+HHC00414I 0:0170 CKD file dasd/work01.170: cyls 960 heads 12 tracks 11520 trklen 35840
+HHC00414I 0:0180 CKD file dasd/work02.180: cyls 886 heads 15 tracks 13290 trklen 47616
+HHC00414I 0:0190 CKD file dasd/work03.190: cyls 1114 heads 15 tracks 16710 trklen 56832
+HHC01437I Config file[150] conf/tk4-.cnf: including file conf/cbt_dasd.cnf
+HHC01437I Config file[154] conf/tk4-.cnf: including file conf/source_dasd.cnf
+HHC01437I Config file[158] conf/tk4-.cnf: including file conf/tk4-_updates.cnf
+HHC01437I Config file[10] conf/tk4-.cnf: including file conf/tk4-_updates/01
+HHC01437I Config file[11] conf/tk4-.cnf: including file conf/tk4-_updates/02
+HHC01437I Config file[12] conf/tk4-.cnf: including file conf/tk4-_updates/03
+HHC01437I Config file[13] conf/tk4-.cnf: including file conf/tk4-_updates/04
+HHC01437I Config file[14] conf/tk4-.cnf: including file conf/tk4-_updates/05
+HHC01437I Config file[15] conf/tk4-.cnf: including file conf/tk4-_updates/06
+HHC01437I Config file[16] conf/tk4-.cnf: including file conf/tk4-_updates/07
+HHC01437I Config file[17] conf/tk4-.cnf: including file conf/tk4-_updates/08
+HHC01437I Config file[18] conf/tk4-.cnf: including file conf/tk4-_updates/09
+HHC01437I Config file[19] conf/tk4-.cnf: including file conf/tk4-_updates/10
+HHC01437I Config file[162] conf/tk4-.cnf: including file conf/local.cnf
+HHC01437I Config file[10] conf/tk4-.cnf: including file local_conf/01
+HHC01437I Config file[11] conf/tk4-.cnf: including file local_conf/02
+HHC01437I Config file[12] conf/tk4-.cnf: including file local_conf/03
+HHC01437I Config file[13] conf/tk4-.cnf: including file local_conf/04
+HHC01437I Config file[14] conf/tk4-.cnf: including file local_conf/05
+HHC01437I Config file[15] conf/tk4-.cnf: including file local_conf/06
+HHC01437I Config file[16] conf/tk4-.cnf: including file local_conf/07
+HHC01437I Config file[17] conf/tk4-.cnf: including file local_conf/08
+HHC01437I Config file[18] conf/tk4-.cnf: including file local_conf/09
+HHC01437I Config file[19] conf/tk4-.cnf: including file local_conf/10
+HHC02260I Script 1: begin processing file scripts/ipl.rc
+HHC01603I hao tgt MVS038J
+HHC00077I The target was placed at index 0
+HHC00100I Thread id 7F69DFDFD700, prio  0, name Hercules Automatic Operator started
+HHC01603I hao cmd script scripts/tk4-.rc
+HHC00077I The command was placed at index 0
+HHC01603I * pausing for 5 seconds, please stand by.
+HHC01603I maxrates
+HHC02272I Highest observed MIPS and IO/s rates:
+HHC02272I From Thu Jan  1 00:00:00 1970 to Fri Apr  5 13:06:17 2024
+HHC02272I MIPS: 0.00
+HHC02272I IO/s: 0
+HHC02272I Current interval is 1440 minutes
+HHC01603I ipl 148
+HHC01603I * pausing for 4 seconds, please stand by.
+HHC00811I Processor CP00: architecture mode S/370
+IEA101A SPECIFY SYSTEM PARAMETERS FOR RELEASE 03.8 .VS2
+HHC00010A Enter input for console 0:0009
+HHC00008I /
+HHC02264I Script 1: file scripts/ipl.rc processing ended
+HHC00100I Thread id 7F69DFEFE700, prio 15, name Read-ahead thread-1 started
+HHC00100I Thread id 7F69DF7E3700, prio 15, name Read-ahead thread-2 started
+HHC00100I Thread id 7F69DF5E1700, prio 16, name Writer thread-1 started
+IEA940I THE FOLLOWING PAGE DATA SETS ARE IN USE
+ PLPA ... SYS1.PAGELPA
+ COMMON . SYS1.PAGECSA
+ DUPLEX . SYS1.DUPLEX
+ LOCAL .. SYS1.PAGEL01
+ LOCAL .. SYS1.PAGEL02
+HHC00100I Thread id 7F69DF4E0700, prio 16, name Garbage collector started
+ IGF992I  MIH INIT COMPLETE, PRI=000300, SEC=000015
+ IEE360I SMF NOW RECORDING ON SYS1.MANX ON MVSRES TIME=14.08.51
+ RAKF is based on the ESG Security System
+ written by Craig J. Yasuna               (Mar 1991)
+ adapted to MVS 3.8J: A. Philip Dickinson (Aug 2005)
+                      Phil Roberts        (Apr 2011)
+                      Juergen Winkelmann  (Apr 2011)
+ RAKF001I RAKF is now being activated
+ RCVT WAS PROCESSED SUCCESSFULLY
+ RAKF003I RAKF is now active
+ RAKFPROF7  RAKF PROFILES UPDATED
+ RAKFUIDS4  USER TABLE UPDATED
+ IEF677I WARNING MESSAGE(S) FOR JOB JES2     ISSUED
+ $HASP493 JES2  WARM-START IS IN PROGRESS
+ $HASP412 MAXIMUM OF 1   READER(S)  EXCEEDED
+ $HASP412 MAXIMUM OF 1   PUNCH(ES)  EXCEEDED
+ $HASP412 MAXIMUM OF 3   PRINTER(S) EXCEEDED
+ $HASP406 STC   10 WAS EXECUTING
+ $HASP406 STC    9 WAS EXECUTING
+ $HASP406 STC   11 WAS EXECUTING
+ $HASP406 STC   12 WAS EXECUTING
+ $HASP406 STC   13 WAS EXECUTING
+ $HASP406 STC   14 WAS EXECUTING
+ $HASP406 STC   15 WAS EXECUTING
+ $HASP406 STC   16 WAS EXECUTING
+ $HASP406 STC   19 WAS EXECUTING
+ $HASP406 STC   20 WAS EXECUTING
+ $HASP406 STC   21 WAS EXECUTING
+ IEE041I THE SYSTEM LOG IS NOW ACTIVE
+ IEE341I BSPPILOT NOT ACTIVE
+ $HASP406 STC   22 WAS EXECUTING
+ $HASP406 STC   23 WAS EXECUTING
+ $HASP406 STC   24 WAS EXECUTING
+ $HASP160 PUNCH1   INACTIVE - CLASS=B
+ $HASP100 BSPPILOT ON STCINRDR
+ $HASP100 INIT     ON STCINRDR
+ $HASP100 INIT     ON STCINRDR
+ $HASP100 INIT     ON STCINRDR
+ $HASP373 BSPPILOT STARTED
+ $HASP100 INIT     ON STCINRDR
+ $HASP100 INIT     ON STCINRDR
+ $HASP373 INIT     STARTED
+ $HASP100 INIT     ON STCINRDR
+ $HASP373 INIT     STARTED
+ $HASP100 BSPSETPF ON STCINRDR
+ $HASP309    INIT  1 INACTIVE ******** C=A
+ $HASP373 INIT     STARTED
+ $HASP373 INIT     STARTED
+ $HASP309    INIT  2 INACTIVE ******** C=BA
+ $HASP309    INIT  3 INACTIVE ******** C=HBA
+ $HASP373 INIT     STARTED
+ $HASP373 INIT     STARTED
+ $HASP373 BSPSETPF STARTED
+ $HASP309    INIT  4 INACTIVE ******** C=SHB
+ $HASP309    INIT  5 INACTIVE ******** C=SBA
+ $HASP309    INIT  6 INACTIVE ******** C=S
+ BSPSP91I - Parms passed: NOREPLYU
+ BSPSP93I - PFK definitions will be updated in memory
+ BSPSP22I - Dataset processed: SYS1.PARMLIB
+ BSPSP23I - on volume MVSRES
+ BSPSP21I - Member being processed: SETPFK01
+ +BSPSP98I - Member processed, LASTCC=0000
+ +BSPSP21I - Member being processed: SETPFK02
+ +BSPSP98I - Member processed, LASTCC=0000
+ +BSPSP99I - End of processing, MAXRC=0000
+ $HASP395 BSPSETPF ENDED
+HHC00100I Thread id 7F69DFAFA700, prio 16, name Writer thread-2 started
+HHC01603I ll
+HHC01600E Unknown command ll, enter 'help' for a list of valid commands
+ +BSPPILOT - Running script STARTMVS
+ +BSPRS22I - Dataset processed: SYS1.PARMLIB
+ +BSPRS23I - on volume MVSRES
+ +BSPRS08I - PARM NOECHO
+ IEE302I 480      ONLINE
+ $HASP100 DYNAMASK ON STCINRDR
+ $HASP373 DYNAMASK STARTED
+ IEF403I DYNAMASK - STARTED - TIME=14.09.22
+ DMSK00I DYNAMASK DONE ****
+ DMSK06I  START
+ IEF404I DYNAMASK - ENDED - TIME=14.09.23
+ $HASP395 DYNAMASK ENDED
+ $HASP100 NET      ON STCINRDR
+ $HASP100 TP       ON STCINRDR
+ $HASP100 MF1      ON STCINRDR
+ $HASP373 NET      STARTED
+ $HASP000 OK
+ IEF403I NET - STARTED - TIME=14.09.24
+ $HASP373 TP       STARTED
+14.09.24 STC   36  IEF403I TP - STARTED - TIME=14.09.24
+14.09.24 STC   36  IEF244I TP TP - UNABLE TO ALLOCATE 3 UNIT(S)
+         AT LEAST 3 OFFLINE UNIT(S) NEEDED.
+14.09.24 STC   37  $HASP373 MF1      STARTED
+14.09.24 STC   37  IEF403I MF1 - STARTED - TIME=14.09.24
+14.09.24 STC   36  IEF489I TP - 1 UNIT(S) NEEDED FOR L3270
+14.09.24 STC   36  IEF247I TP - 3C0 OFFLINE
+14.09.24 STC   36 *00 IEF238D TP - REPLY DEVICE NAME OR 'CANCEL'.
+14.09.24           IEF236I ALLOC. FOR JES2 JES2
+14.09.24           IEF237I 00E  ALLOCATED TO PRINTER1
+14.09.24 STC   21  $HASP150 MF1      ON PRINTER1
+14.09.24 STC   21 *$HASP190 MF1      SETUP -- PRINTER1 -- F = 0001 -- C = 6    -- T = QN
+14.09.24           $HASP185 PRINTER1 TERMINATED
+14.09.24           IEF236I ALLOC. FOR JES2 JES2
+14.09.24           IEF237I 00F  ALLOCATED TO PRINTER2
+14.09.24 STC   17  $HASP150 BSPSETPF ON PRINTER2        32 LINES
+14.09.24 STC   17 *$HASP190 BSPSETPF SETUP -- PRINTER2 -- F = 0001 -- C = 6    -- T = QN
+14.09.24 STC   22  $HASP150 TSO      ON PRINTER1
+14.09.25           $HASP160 PRINTER1 INACTIVE - CLASS=A
+14.09.25 STC   17  $HASP250 BSPSETPF IS PURGED
+14.09.25 STC   18  $HASP150 DYNAMASK ON PRINTER2        28 LINES
+14.09.25 STC   37  $HASP150 MF1      ON PRINTER1        13 LINES
+14.09.25 STC   10  $HASP150 BSPPILOT ON PRINTER2         9 LINES
+14.09.25 STC   18  $HASP250 DYNAMASK IS PURGED
+14.09.25           $HASP160 PRINTER1 INACTIVE - CLASS=A
+14.09.25 STC   37  IRB100I MF/1 IS ACTIVE
+14.09.25 STC   11  $HASP150 INIT     ON PRINTER2         5 LINES
+14.09.25 STC   10  $HASP250 BSPPILOT IS PURGED
+14.09.25 STC   35  IST025I  BLDL FAILED FOR IEDIAE   IN VTAMLIB
+14.09.25 STC   35  IST025I  BLDL FAILED FOR IEDIAE   IN VTAMLIB
+14.09.25 STC   35  IST025I  BLDL FAILED FOR IEDIAE   IN VTAMLIB
+14.09.25 STC   35  IST025I  BLDL FAILED FOR IEDIAE   IN VTAMLIB
+14.09.25 STC   35  IST025I  BLDL FAILED FOR IEDIAK   IN VTAMLIB
+14.09.25 STC   35  IST025I  BLDL FAILED FOR IEDIAK   IN VTAMLIB
+14.09.25 STC   35  IST110I  NETWORK SOLICITOR STARTED
+14.09.25 STC   12  $HASP150 INIT     ON PRINTER2         5 LINES
+14.09.25 STC   11  $HASP250 INIT     IS PURGED
+14.09.25 STC   35  IST197I  SAVED CONFIGURATION ATSO     READ FROM VTAMOBJ
+14.09.25 STC   35  IST093I  ATSO     ACTIVE
+14.09.25 STC   35  IST197I  SAVED CONFIGURATION ASNASOL  READ FROM VTAMOBJ
+14.09.25 STC   35  IST093I  ASNASOL  ACTIVE
+14.09.25 STC   35  IST197I  SAVED CONFIGURATION AJRP     READ FROM VTAMOBJ
+14.09.25 STC   35  IST093I  AJRP     ACTIVE
+14.09.25 STC   35  IST197I  SAVED CONFIGURATION L3274    READ FROM VTAMOBJ
+14.09.25 STC   13  $HASP150 INIT     ON PRINTER2         5 LINES
+14.09.25 STC   12  $HASP250 INIT     IS PURGED
+14.09.25 STC   14  $HASP150 INIT     ON PRINTER2         5 LINES
+14.09.25 STC   13  $HASP250 INIT     IS PURGED
+14.09.25 STC   15  $HASP150 INIT     ON PRINTER2         5 LINES
+14.09.25 STC   14  $HASP250 INIT     IS PURGED
+14.09.25 STC   16  $HASP150 INIT     ON PRINTER2         5 LINES
+14.09.25 STC   15  $HASP250 INIT     IS PURGED
+14.09.25 STC   19  $HASP150 NET      ON PRINTER2         9 LINES
+14.09.25 STC   16  $HASP250 INIT     IS PURGED
+14.09.25 STC   20  $HASP150 TP       ON PRINTER2        31 LINES
+14.09.25 STC   19  $HASP250 NET      IS PURGED
+14.09.25 STC   21  $HASP150 MF1      ON PRINTER2         7 LINES
+14.09.25 STC   20  $HASP250 TP       IS PURGED
+14.09.25 STC   22  $HASP150 TSO      ON PRINTER2        11 LINES
+14.09.25 STC   21  $HASP250 MF1      IS PURGED
+14.09.25 STC   23  $HASP150 SNASOL   ON PRINTER2         7 LINES
+14.09.25 STC   22  $HASP250 TSO      IS PURGED
+14.09.26 STC   24  $HASP150 JRP      ON PRINTER2        30 LINES
+14.09.26 STC   23  $HASP250 SNASOL   IS PURGED
+14.09.26 STC   33  $HASP150 BSPSETPF ON PRINTER2        32 LINES
+14.09.26 STC   24  $HASP250 JRP      IS PURGED
+14.09.26 STC   34  $HASP150 DYNAMASK ON PRINTER2        28 LINES
+14.09.26 STC   33  $HASP250 BSPSETPF IS PURGED
+14.09.26           $HASP160 PRINTER2 INACTIVE - CLASS=Z
+14.09.26 STC   34  $HASP250 DYNAMASK IS PURGED
+14.09.27 STC   26  IEE342I MODIFY   REJECTED-TASK BUSY
+HHC01603I help
+HHC01603I 
+HHC01602I Command      Description
+HHC01602I -------      -----------------------------------------------
+HHC01602I !message    *SCP priority messsage
+HHC01602I #            Silent comment
+HHC01602I *            Loud comment
+HHC01602I .reply      *SCP command
+HHC01602I ?            alias for help
+HHC01602I aea          Display AEA tables
+HHC01602I aia          Display AIA fields
+HHC01602I alrf         Command deprecated: Use "archlvl enable|disable|query asn_lx_reuse" instead
+HHC01602I ar           Display access registers
+HHC01602I archlvl     *Set Architecture Level
+HHC01602I archmode     Alias for archlvl
+HHC01602I asn_and_l    Command deprecated: Use "archlvl enable|disable|query asn_lx_reuse" instead
+HHC01602I attach      *Configure device
+HHC01602I auto_scsi   *Command deprecated - Use "SCSIMOUNT"
+HHC01602I autoinit    *Display/Set automatic create empty tape file switch
+HHC01602I automount   *Display/Update allowable tape automount directories
+HHC01602I b           *Set breakpoint
+HHC01602I b+           Set breakpoint
+HHC01602I b-          *Delete breakpoint
+HHC01602I cache       *Execute cache related commands
+HHC01602I cachestat    Cache stats command
+HHC01602I capping     *Set/display capping value
+HHC01602I cckd        *cckd command
+HHC01602I cf          *Configure current CPU online or offline
+HHC01602I cfall        Configure all CPU's online or offline
+HHC01602I clocks       Display tod clkc and cpu timer
+HHC01602I cmdlevel    *Display/Set current command group
+HHC01602I cmdlvl       (alias for cmdlevel)
+HHC01602I cmdsep      *Display/Set command line separator
+HHC01602I cmpscpad    *Set/display the CMPSC zero padding value.
+HHC01602I cnslport     Set console port
+HHC01602I codepage    *Set/display code page conversion table
+HHC01602I conkpalv    *Display/alter console TCP keep-alive settings
+HHC01602I cp_updt     *Create/Modify user character conversion table
+HHC01602I cpu         *Define target cpu for panel display and commands
+HHC01602I cpuidfmt     Set format 0/1 STIDP generation
+HHC01602I cpumodel     Set CPU model number
+HHC01602I cpuprio      Set/Display cpuprio parameter
+HHC01602I cpuserial    Set CPU serial number
+HHC01602I cpuverid     Set CPU verion number
+HHC01602I cr          *Display or alter control registers
+HHC01602I cscript     *Cancels a running script thread
+HHC01602I ctc         *Enable/Disable CTC debugging
+HHC01602I define      *Rename device
+HHC01602I defstore    *Define/Display main and expanded storage values
+HHC01602I defsym      *Define symbol
+HHC01602I delsym      *Delete a symbol
+HHC01602I detach       Remove device
+HHC01602I devinit     *Reinitialize device
+HHC01602I devlist     *List device, device class, or all devices
+HHC01602I devprio      Set/Display devprio parameter
+HHC01602I devtmax     *Display or set max device threads
+HHC01602I diag8cmd     Set diag8 command option
+HHC01602I ds           Display subchannel
+HHC01602I dumpdev     *Specify bootstrap loader DUMP parameters
+HHC01602I ecps:vm     *Command deprecated - Use "ECPSVM"
+HHC01602I ecpsvm      *ECPS:VM Commands
+HHC01602I engines      Set engines parameter
+HHC01602I evm         *Command deprecated - Use "ECPSVM"
+HHC01602I exit         (Synonym for 'quit')
+HHC01602I ext          Generate external interrupt
+HHC01602I fcb         *Display the current FCB (if only the printer is given)
+HHC01602I fpc         *Display or alter floating point control register
+HHC01602I fpr         *Display or alter floating point registers
+HHC01602I f{+/-}adr    Mark frames unusable/usable
+HHC01602I g            Turn off instruction stepping and start all CPUs
+HHC01602I gpr         *Display or alter general purpose registers
+HHC01602I hao         *Hercules Automatic Operator
+HHC01602I help        *list all commands / command specific help
+HHC01602I herclogo    *Read a new hercules logo file
+HHC01602I hercprio     Set/Display hercprio parameter
+HHC01602I hst         *History of commands
+HHC01602I http        *Start/Stop/Modify/Display HTTP Server
+HHC01602I httpport    *Command deprecated - Use "HTTP PORT ..."
+HHC01602I httproot    *Command deprecated - Use "HTTP ROOT fn"
+HHC01602I hwldr       *Specify boot loader filename
+HHC01602I i            Generate I/O attention interrupt for device
+HHC01602I iodelay     *Display or set I/O delay value
+HHC01602I ipending     Display pending interrupts
+HHC01602I ipl         *IPL from device or file
+HHC01602I iplc        *Command deprecated - use IPL with clear option
+HHC01602I k            Display cckd internal trace
+HHC01602I ldmod       *Load a module
+HHC01602I legacysen    Set legacysenseid setting
+HHC01602I loadcore    *Load a core image file
+HHC01602I loaddev     *Specify bootstrap loader IPL parameters
+HHC01602I loadparm    *Set IPL parameter
+HHC01602I loadtext    *Load a text deck file
+HHC01602I log         *Direct logger output
+HHC01602I logopt      *Set/Display logging options
+HHC01602I lparname    *Set LPAR name
+HHC01602I lparnum     *Set LPAR identification number
+HHC01602I lsdep        List module dependencies
+HHC01602I lsmod        List dynamic modules
+HHC01602I mainsize    *Define/Display mainsize parameter
+HHC01602I manufactu    Set STSI manufacturer code
+HHC01602I maxcpu       Set maxcpu parameter
+HHC01602I maxrates    *Display highest MIPS/SIOS rate or set interval
+HHC01602I message     *Display message on console a la VM
+HHC01602I model       *Set/Query STSI model code
+HHC01602I modpath      Set module load path
+HHC01602I mounted_t   *Control tape initialization
+HHC01602I msg          Alias for message
+HHC01602I msglevel    *Display/Set current Message Display output
+HHC01602I msglvl       Alias for msglevel
+HHC01602I msgnoh       Similar to "message" but no header
+HHC01602I mt          *Control magnetic tape operation
+HHC01602I numcpu       Set numcpu parameter
+HHC01602I numvec       Set numvec parameter
+HHC01602I ostailor    *Tailor trace information for specific OS
+HHC01602I panrate     *Display or set rate at which console refreshes
+HHC01602I pantitle    *Display or set console title
+HHC01602I pgmprdos    *Set LPP license setting
+HHC01602I pgmtrace    *Trace program interrupts
+HHC01602I plant        Set STSI plant code
+HHC01602I pr           Display prefix register
+HHC01602I psw         *Display or alter program status word
+HHC01602I ptp         *Enable/Disable PTP debugging
+HHC01602I ptt         *Set or display internal trace
+HHC01602I qcpuid      *Display cpuid
+HHC01602I qd           Query dasd
+HHC01602I qpfkeys      Display the current PF Key settings
+HHC01602I qpid         Display Process ID of Hercules
+HHC01602I qports       Display TCP/IP ports in use
+HHC01602I qproc        Display processors type and utilization
+HHC01602I qstor        Display main and expanded storage values
+HHC01602I quiet       *Toggle automatic refresh of panel display data
+HHC01602I quit        *Terminate the emulator
+HHC01602I r           *Display or alter real storage
+HHC01602I restart      Generate restart interrupt
+HHC01602I resume       Resume hercules
+HHC01602I rmmod        Delete a module
+HHC01602I s           *Instruction stepping
+HHC01602I s+          *Instruction stepping on
+HHC01602I s-           Turn off instruction stepping
+HHC01602I s?          *Instruction stepping query
+HHC01602I savecore    *Save a core image to file
+HHC01602I sclproot    *Set SCLP base directory
+HHC01602I scpecho     *Set/Display option to echo to console and history of scp replys
+HHC01602I scpimply    *Set/Display option to pass non-hercules commands to the scp
+HHC01602I script      *Run a sequence of panel commands contained in a file
+HHC01602I scsimount   *Automatic SCSI tape mounts
+HHC01602I sf+dev       Add shadow file
+HHC01602I sf-dev       Delete shadow file
+HHC01602I sfc          Compress shadow files
+HHC01602I sfd          Display shadow file stats
+HHC01602I sfk         *Check shadow files
+HHC01602I sh          *Shell command
+HHC01602I shcmdopt     Set diag8 sh option
+HHC01602I shrd         shrd command
+HHC01602I shrdport     Set shrdport value
+HHC01602I sizeof       Display size of structures
+HHC01602I srvprio      Set/Display srvprio parameter
+HHC01602I ssd         *Signal shutdown
+HHC01602I start       *Start CPU (or printer/punch device if argument given)
+HHC01602I startall     Start all CPU's
+HHC01602I stop        *Stop CPU (or printer/punch device if argument given)
+HHC01602I stopall      Stop all CPU's
+HHC01602I store        Store CPU status at absolute zero
+HHC01602I suspend      Suspend hercules
+HHC01602I symptom      Alias for traceopt
+HHC01602I syncio       Display syncio devices statistics
+HHC01602I sysclear    *System Clear Reset manual operation
+HHC01602I sysepoch     Set sysepoch parameter
+HHC01602I sysreset    *System Reset manual operation
+HHC01602I s{+/-}dev    Turn CCW stepping on/off
+HHC01602I t           *Instruction trace
+HHC01602I t+          *Instruction trace on
+HHC01602I t-           Turn off instruction tracing
+HHC01602I t?          *Instruction trace query
+HHC01602I timerint    *Display or set timers update interval
+HHC01602I tlb          Display TLB tables
+HHC01602I toddrag      Display or set TOD clock drag factor
+HHC01602I todprio      Set/Display todprio parameter
+HHC01602I traceopt    *Instruction trace display options
+HHC01602I tzoffset     Set tzoffset parameter
+HHC01602I t{+/-}CKD    Turn CKD_KEY tracing on/off
+HHC01602I t{+/-}dev    Turn CCW tracing on/off
+HHC01602I u           *Disassemble storage
+HHC01602I uptime       Display how long Hercules has been running
+HHC01602I v           *Display or alter virtual storage
+HHC01602I version      Display version information
+HHC01602I xpndsize    *Define/Display xpndsize parameter
+HHC01602I yroffset     Set yroffset parameter
+HHC01603I 
+HHC01610I  (*)  More help available.
+HHC01603I 
+14.09.29 STC   38  $HASP100 SNASOL   ON STCINRDR
+14.09.29 STC   39  $HASP100 JRP      ON STCINRDR
+14.09.29 STC   38  $HASP373 SNASOL   STARTED
+14.09.29 STC   38  IEF403I SNASOL - STARTED - TIME=14.09.29
+14.09.29 STC   39  $HASP373 JRP      STARTED
+14.09.29 STC   39  IEF403I JRP - STARTED - TIME=14.09.29
+14.09.29 STC   38  +SNASOL - APPLICATION SNASOL   IS UP
+14.09.29 STC   39  JRPI101 INITIALIZATION COMPLETE
+14.09.29 STC   39  JRP904I - JRP WAITING FOR COMMAND.
+14.09.54 STC   26  IEE342I MODIFY   REJECTED-TASK BUSY
+14.09.57 STC   26  IEE342I MODIFY   REJECTED-TASK BUSY
+14.10.00 STC   26  IEE342I MODIFY   REJECTED-TASK BUSY
+14.10.03 STC   26  IEE342I MODIFY   REJECTED-TASK BUSY
+14.10.06 STC   26  IEE342I MODIFY   REJECTED-TASK BUSY
+14.10.09 STC   26  IEE342I MODIFY   REJECTED-TASK BUSY
+14.10.12 STC   26  IEE342I MODIFY   REJECTED-TASK BUSY
+14.10.15 STC   26  IEE342I MODIFY   REJECTED-TASK BUSY
+14.10.17           MVS038J MVS 3.8j TK4- system initialization complete CN=00
+HHC00081I Match at index 00, executing command script scripts/tk4-.rc
+HHC01603I script scripts/tk4-.rc
+14.10.17 STC   26  +BSPRS99I - End of processing, MAXRC=0000
+HHC02260I Script 2: begin processing file scripts/tk4-.rc
+HHC01603I script scripts/tk4-_updates.rc
+HHC02260I Script 2: begin processing file scripts/tk4-_updates.rc
+HHC01603I script scripts/tk4-_updates/01
+HHC02260I Script 2: begin processing file scripts/tk4-_updates/01
+HHC02264I Script 2: file scripts/tk4-_updates/01 processing ended
+HHC01603I script scripts/tk4-_updates/02
+HHC02260I Script 2: begin processing file scripts/tk4-_updates/02
+HHC02264I Script 2: file scripts/tk4-_updates/02 processing ended
+HHC01603I script scripts/tk4-_updates/03
+HHC02260I Script 2: begin processing file scripts/tk4-_updates/03
+HHC02264I Script 2: file scripts/tk4-_updates/03 processing ended
+HHC01603I script scripts/tk4-_updates/04
+HHC02260I Script 2: begin processing file scripts/tk4-_updates/04
+HHC02264I Script 2: file scripts/tk4-_updates/04 processing ended
+HHC01603I script scripts/tk4-_updates/05
+HHC02260I Script 2: begin processing file scripts/tk4-_updates/05
+HHC02264I Script 2: file scripts/tk4-_updates/05 processing ended
+HHC01603I script scripts/tk4-_updates/06
+HHC02260I Script 2: begin processing file scripts/tk4-_updates/06
+HHC02264I Script 2: file scripts/tk4-_updates/06 processing ended
+HHC01603I script scripts/tk4-_updates/07
+HHC02260I Script 2: begin processing file scripts/tk4-_updates/07
+HHC02264I Script 2: file scripts/tk4-_updates/07 processing ended
+HHC01603I script scripts/tk4-_updates/08
+HHC02260I Script 2: begin processing file scripts/tk4-_updates/08
+HHC02264I Script 2: file scripts/tk4-_updates/08 processing ended
+HHC01603I script scripts/tk4-_updates/09
+HHC02260I Script 2: begin processing file scripts/tk4-_updates/09
+HHC02264I Script 2: file scripts/tk4-_updates/09 processing ended
+HHC01603I script scripts/tk4-_updates/10
+HHC02260I Script 2: begin processing file scripts/tk4-_updates/10
+HHC02264I Script 2: file scripts/tk4-_updates/10 processing ended
+HHC02264I Script 2: file scripts/tk4-_updates.rc processing ended
+HHC01603I script scripts/local.rc
+HHC02260I Script 2: begin processing file scripts/local.rc
+HHC01603I script local_scripts/01
+HHC02260I Script 2: begin processing file local_scripts/01
+HHC02264I Script 2: file local_scripts/01 processing ended
+HHC01603I script local_scripts/02
+HHC02260I Script 2: begin processing file local_scripts/02
+HHC02264I Script 2: file local_scripts/02 processing ended
+HHC01603I script local_scripts/03
+HHC02260I Script 2: begin processing file local_scripts/03
+HHC02264I Script 2: file local_scripts/03 processing ended
+HHC01603I script local_scripts/04
+HHC02260I Script 2: begin processing file local_scripts/04
+HHC02264I Script 2: file local_scripts/04 processing ended
+HHC01603I script local_scripts/05
+HHC02260I Script 2: begin processing file local_scripts/05
+HHC02264I Script 2: file local_scripts/05 processing ended
+HHC01603I script local_scripts/06
+HHC02260I Script 2: begin processing file local_scripts/06
+HHC02264I Script 2: file local_scripts/06 processing ended
+HHC01603I script local_scripts/07
+HHC02260I Script 2: begin processing file local_scripts/07
+HHC02264I Script 2: file local_scripts/07 processing ended
+HHC01603I script local_scripts/08
+HHC02260I Script 2: begin processing file local_scripts/08
+HHC02264I Script 2: file local_scripts/08 processing ended
+HHC01603I script local_scripts/09
+HHC02260I Script 2: begin processing file local_scripts/09
+HHC02264I Script 2: file local_scripts/09 processing ended
+HHC01603I script local_scripts/10
+HHC02260I Script 2: begin processing file local_scripts/10
+HHC02264I Script 2: file local_scripts/10 processing ended
+HHC02264I Script 2: file scripts/local.rc processing ended
+HHC01603I *
+HHC01603I *                           ************   ****  *****          ||
+HHC01603I *                           **   **   **    **    **           |||
+HHC01603I *                           **   **   **    **   **           ||||
+HHC01603I *                                **         **  **           || ||
+HHC01603I *        |l      _,,,---,,_      **         ** **           ||  ||
+HHC01603I * ZZZzz /,'.-'`'    -.  ;-;;,    **         ****           ||   ||
+HHC01603I *      |,4-  ) )-,_. ,( (  ''-'  **         *****         ||    ||
+HHC01603I *     '---''(_/--'  `-')_)       **         **  **       ||     ||    ||||||||||
+HHC01603I *                                **         **   **      |||||||||||
+HHC01603I *       The MVS 3.8j             **         **    **            ||
+HHC01603I *     Tur(n)key System           **         **     **           ||
+HHC01603I *                              ******      ****     ***       ||||||
+HHC01603I *
+HHC01603I *            TK3 created by Volker Bandke       vbandke@bsp-gmbh.com
+HHC01603I *            TK4- update by Juergen Winkelmann  winkelmann@id.ethz.ch
+HHC01603I *                     see TK4-.CREDITS for complete credits
+HHC01603I *
+HHC02264I Script 2: file scripts/tk4-.rc processing ended
+14.24.25 STC   37  $HASP150 MF1      ON PRINTER1       200 LINES
+14.24.25 STC   37  IRB101I MF/1 REPORT AVAILABLE FOR PRINTING
+14.24.25           $HASP160 PRINTER1 INACTIVE - CLASS=A
+14.39.25 STC   37  $HASP150 MF1      ON PRINTER1       200 LINES
+14.39.25 STC   37  IRB101I MF/1 REPORT AVAILABLE FOR PRINTING
+14.39.25           $HASP160 PRINTER1 INACTIVE - CLASS=A
+14.54.25 STC   37  $HASP150 MF1      ON PRINTER1       200 LINES
+14.54.25 STC   37  IRB101I MF/1 REPORT AVAILABLE FOR PRINTING
+14.54.25           $HASP160 PRINTER1 INACTIVE - CLASS=A

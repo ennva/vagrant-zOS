@@ -1,0 +1,24 @@
+#!/bin/bash
+#**********************************************************************
+#***                                                                ***
+#*** Script:  mvs                                                   ***
+#***                                                                ***
+#*** Purpose: IPL OS/VS2-MVS 3.8j (TK4- unattended operations)      ***
+#***                                                                ***
+#*** Updated: 2013/11/26                                            ***
+#***                                                                ***
+#**********************************************************************
+#
+# set environment
+#
+if [[ `uname -m` == 'x86_64' ]];then arch=64;else arch=32;fi
+export PATH=hercules/linux/$arch/bin:$PATH
+export LD_LIBRARY_PATH=hercules/linux/$arch/lib:hercules/linux/$arch/lib/hercules:$LD_LIBRARY_PATH
+MODE=`head -1 unattended/mode 2>/dev/null`
+DAEMON="-d"
+if [[ $MODE == 'CONSOLE' ]];then unset DAEMON;fi
+#
+# IPL OS/VS2-MVS 3.8j
+#
+export HERCULES_RC=scripts/ipl.rc
+hercules $DAEMON -f conf/tk4-.cnf >log/3033.log

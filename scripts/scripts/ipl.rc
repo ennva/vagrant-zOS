@@ -1,0 +1,26 @@
+#**********************************************************************
+#***                                                                ***
+#*** Script:  ipl.rc                                                ***
+#***                                                                ***
+#*** Purpose: OS/VS2-MVS 3.8j IPL for unattended operations         ***
+#***                                                                ***
+#*** Updated: 2013/11/18                                            ***
+#***                                                                ***
+#**********************************************************************
+#
+# complete TK4- initialization after IPL 
+#
+hao tgt MVS038J
+hao cmd script scripts/tk4-.rc
+#
+# don't hurry
+#
+* pausing for 5 seconds, please stand by.
+pause 5
+#
+# IPL MVSRES and kick off OS/VS2-MVS 3.8j
+#
+ipl 148
+* pausing for 4 seconds, please stand by.
+pause 4
+/
